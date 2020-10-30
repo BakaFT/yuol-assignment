@@ -1,120 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>201905574 韩松</title>
-	<meta name="description" content="YUOL Assignment">
-	<meta name="author" content="BakaFT">
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet">
-	<link href="css/bakaft.css" rel="stylesheet">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>201905574 韩松</title>
+		<meta name="description" content="YUOL Assignment">
+		<meta name="author" content="BakaFT">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<link href="css/bakaft.css" rel="stylesheet">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/scripts.js"></script>
+		<script src="js/bakaft.js"></script>
 
-</head>
+	</head>
 
-<body>
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-2 btn-group-vertical">
-				<button type="button" class="btn ">沙雕新闻</button>
+	<body>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-2 btn-group-vertical">
+					<a id="tab1" href="#" class="btn-block tab list-group-item active">沙雕新闻</a>
+					<a id="tab2" href="#" class="btn-block tab list-group-item">迷惑时间</a>
+					<a id="tab3" href="#" class="btn-block tab list-group-item">奇闻趣事</a>
+					<a id="tab4" href="#" class="btn-block tab list-group-item">社会政治</a>
+					<a id="tab5" href="#" class="btn-block tab list-group-item">时尚音乐</a>
+					<a id="tab6" href="#" class="btn-block tab list-group-item">电影频道</a>
+					<a id="tab7" href="#" class="btn-block tab list-group-item">军武世界</a>
 
-				<button type="button" class="btn ">热门头条</button>
-
-				<button type="button" class="btn ">新鲜事</button>
-
-				<button type="button" class="btn ">时尚电影</button>
-
-				<button type="button" class="btn ">音乐</button>
-
-				<button type="button" class="btn ">动漫</button>
-
-				<button type="button" class="btn ">体育</button>
-
-				<button type="button" class="btn ">政治军事</button>
-
-			</div>
-			<div class="col-md-10">
-				<div class="row news">
-					<div class="col-md-2">
-						<img class="thumbnail" alt="新闻缩略图" src="./imgs/thumbnail/1.jpg" />
-					</div>
-					<div class="col-md-10">
-						<h3>
-							小偷深夜脱鞋作案，因脚臭惊动老板被抓
-						</h3>
-						<img class="avatar" src="./imgs/avatar/like.jpg" alt=""><small>洋葱新闻社 今天 18:33	</small>
-					</div>
 				</div>
-				<hr style="margin:0px;height:1px;border:0px;background-color:#D5D5D5;color:#D5D5D5;"/>
-				<div class="row news">
-					<div class="col-md-2">
-						<img class="thumbnail" alt="新闻缩略图" src="./imgs/thumbnail/2.jpg" />
+				<div class="col-md-10">
+					<div id="tab-item1" class="tab-item">
+						<div class="row news">
+							<div class="col-md-2">
+								<img class="thumbnail" alt="新闻缩略图" src="./imgs/thumbnail/1.jpg" />
+							</div>
+							<div class="col-md-10">
+								<h3>
+									小偷深夜脱鞋作案，因脚臭惊动老板被抓
+								</h3>
+								<img class="avatar" src="./imgs/avatar/like.jpg" alt=""><small>洋葱新闻社 今天
+									18:33 </small>
+							</div>
+						</div>
+						<hr
+							style="margin:0px;height:1px;border:0px;background-color:#D5D5D5;color:#D5D5D5;"
+							/>
+						<div class="row news">
+							<div class="col-md-2">
+								<img class="thumbnail" alt="新闻缩略图" src="./imgs/thumbnail/2.jpg" />
+							</div>
+							<div class="col-md-10">
+								<h3>
+									盗贼偷吃金桔后念念不忘，竟将2米高果树拔出扛回家
+								</h3>
+								<img class="avatar" src="./imgs/avatar/doge.jpg" alt=""><small>沙雕新闻 今天
+									17:55</small>
+							</div>
+						</div>
+						<hr
+							style="margin:0px;height:1px;border:0px;background-color:#D5D5D5;color:#D5D5D5;"
+							/>
+						<div class="row news">
+							<div class="col-md-2">
+								<img class="thumbnail" alt="新闻缩略图" src="./imgs/thumbnail/3.jpg" />
+							</div>
+							<div class="col-md-10">
+								<h3>
+									小偷半夜煎饼摊偷钱，连偷七天自学做煎饼，技术超过老师傅
+								</h3>
+								<img class="avatar" src="./imgs/avatar/nowords.jpg" alt=""><small>街头新闻
+									今天 15:22</small>
+							</div>
+						</div>
+						<hr
+							style="margin:0px;height:1px;border:0px;background-color:#D5D5D5;color:#D5D5D5;"
+							/>
+						<div class="row news">
+							<div class="col-md-2">
+								<img class="thumbnail" alt="新闻缩略图" src="./imgs/thumbnail/4.jpg" />
+							</div>
+							<div class="col-md-10">
+								<h3>
+									妻子酒驾被抓，丈夫醉驾赶来。
+								</h3>
+								<img class="avatar" src="./imgs/avatar/xieyan.jpg" alt=""><small>交警在线 昨天
+									20:35</small>
+							</div>
+						</div>
 					</div>
-					<div class="col-md-10">
-						<h3>
-							盗贼偷吃金桔后念念不忘，竟将2米高果树拔出扛回家
-						</h3>
-						<img class="avatar" src="./imgs/avatar/doge.jpg" alt=""><small>沙雕新闻 今天 17:55</small>
+						<div id="tab-item2" class="tab-item">
+							<div class="row news">
+								<div class="col-md-2">
+									<img class="thumbnail" alt="新闻缩略图" src="./imgs/thumbnail/6.jpg" />
+								</div>
+								<div class="col-md-10">
+									<h3>
+										居民报警说对面住户阳台窗户上贴了SOS，后发现是"2020"的0掉了
+									</h3>
+									<img class="avatar" src="./imgs/avatar/like.jpg" alt=""><small>洋葱新闻社 今天
+										18:33 </small>
+								</div>
+							</div>
+							<hr
+								style="margin:0px;height:1px;border:0px;background-color:#D5D5D5;color:#D5D5D5;"
+								/>
+							<div class="row news">
+								<div class="col-md-2">
+									<img class="thumbnail" alt="新闻缩略图" src="./imgs/thumbnail/7.jpg" />
+								</div>
+								<div class="col-md-10">
+									<h3>
+										4名“00后”伪装易烊千玺诈骗小学生8万多元,法院组织所有小学生集体组织观看宣判
+									</h3>
+									<img class="avatar" src="./imgs/avatar/doge.jpg" alt=""><small>沙雕新闻 今天
+										17:55</small>
+								</div>
+							</div>
+							<hr
+								style="margin:0px;height:1px;border:0px;background-color:#D5D5D5;color:#D5D5D5;"
+								/>
+							<div class="row news">
+								<div class="col-md-2">
+									<img class="thumbnail" alt="新闻缩略图" src="./imgs/thumbnail/tom.jpg" />
+								</div>
+								<div class="col-md-10">
+									<h3>
+										小伙酒驾被查，掏出有效期一万年的驾照
+									</h3>
+									<img class="avatar" src="./imgs/avatar/nowords.jpg" alt=""><small>街头新闻
+										今天 15:22</small>
+								</div>
+							</div>
+							<hr
+								style="margin:0px;height:1px;border:0px;background-color:#D5D5D5;color:#D5D5D5;"
+								/>
+							<div class="row news">
+								<div class="col-md-2">
+									<img class="thumbnail" alt="新闻缩略图" src="./imgs/thumbnail/8.jpg" />
+								</div>
+								<div class="col-md-10">
+									<h3>
+										偷香肠嫌犯被抓后吐槽香肠不好吃 失主：明明很好吃
+									</h3>
+									<img class="avatar" src="./imgs/avatar/xieyan.jpg" alt=""><small>交警在线 昨天
+										20:35</small>
+								</div>
+							</div>
+						</div>
+						<div id="tab-item3" class="tab-item">
+							<div class="row news">
+								<div class="col-md-2">
+									<img class="thumbnail" alt="新闻缩略图" src="./imgs/thumbnail/5.jpg" />
+								</div>
+								<div class="col-md-10">
+									<h3>
+										男子变卖两套房打赏女主播 欠债后网上伪装女性诈骗男网友
+									</h3>
+									<img class="avatar" src="./imgs/avatar/like.jpg" alt=""><small>洋葱新闻社 今天
+										18:33 </small>
+								</div>
+							</div>
+							<hr
+								style="margin:0px;height:1px;border:0px;background-color:#D5D5D5;color:#D5D5D5;"
+								/>
+							<div class="row news">
+								<div class="col-md-2">
+									<img class="thumbnail" alt="新闻缩略图" src="./imgs/thumbnail/9.jpg" />
+								</div>
+								<div class="col-md-10">
+									<h3>
+										货车着火23吨生蚝被烧 记者报道完发现是自家货物
+									</h3>
+									<img class="avatar" src="./imgs/avatar/doge.jpg" alt=""><small>沙雕新闻 今天
+										17:55</small>
+								</div>
+							</div>
+							<hr
+								style="margin:0px;height:1px;border:0px;background-color:#D5D5D5;color:#D5D5D5;"
+								/>
+							<div class="row news">
+								<div class="col-md-2">
+									<img class="thumbnail" alt="新闻缩略图" src="./imgs/thumbnail/10.jpg" />
+								</div>
+								<div class="col-md-10">
+									<h3>
+										女子偷鞋尺码不合 回店要求更换一双
+									</h3>
+									<img class="avatar" src="./imgs/avatar/nowords.jpg" alt=""><small>街头新闻
+										今天 15:22</small>
+								</div>
+							</div>
+							<hr
+								style="margin:0px;height:1px;border:0px;background-color:#D5D5D5;color:#D5D5D5;"
+								/>
+							<div class="row news">
+								<div class="col-md-2">
+									<img class="thumbnail" alt="新闻缩略图" src="./imgs/thumbnail/dog.jpg" />
+								</div>
+								<div class="col-md-10">
+									<h3>
+										男子遗失爱犬 因思犬心切偷朋友黄狗染黑
+									</h3>
+									<img class="avatar" src="./imgs/avatar/xieyan.jpg" alt=""><small>交警在线 昨天
+										20:35</small>
+								</div>
+							</div>
+						</div>
+						<div id="tab-item4" class="tab-item">
+							没素材了
+						</div>
+						<div id="tab-item5" class="tab-item">
+							真的没素材了
+						</div>
+						<div id="tab-item6" class="tab-item">
+							别看了真没了
+						</div>
+						<div id="tab-item7" class="tab-item">
+							不会真有人看沙雕新闻吧
+						</div>
 					</div>
-				</div>
-				<hr style="margin:0px;height:1px;border:0px;background-color:#D5D5D5;color:#D5D5D5;"/>
-				<div class="row news">
-					<div class="col-md-2">
-						<img class="thumbnail" alt="新闻缩略图" src="./imgs/thumbnail/3.jpg" />
-					</div>
-					<div class="col-md-10">
-						<h3>
-							小偷半夜煎饼摊偷钱，连偷七天自学做煎饼，技术超过老师傅
-						</h3>
-						<img class="avatar" src="./imgs/avatar/nowords.jpg" alt=""><small>街头新闻 今天 15:22</small>
-					</div>
-				</div>
-				<hr style="margin:0px;height:1px;border:0px;background-color:#D5D5D5;color:#D5D5D5;"/>
-				<div class="row news">
-					<div class="col-md-2">
-						<img class="thumbnail" alt="新闻缩略图" src="./imgs/thumbnail/4.jpg" />
-					</div>
-					<div class="col-md-10">
-						<h3>
-							妻子酒驾被抓，丈夫醉驾赶来。
-						</h3>
-						<img class="avatar" src="./imgs/avatar/xieyan.jpg" alt=""><small>交警在线 昨天 20:35</small>
-					</div>
-				</div>
 
-				<nav class="navbar navbar-transparent ">
-					<ul class="pagination">
-						<li class="page-item">
-							<a class="page-link" href="#">上一页</a>
-						</li>
-						<li class="page-item">
-							<a class="page-link" href="#">1</a>
-						</li>
-						<li class="page-item">
-							<a class="page-link" href="#">2</a>
-						</li>
-						<li class="page-item">
-							<a class="page-link" href="#">3</a>
-						</li>
-						<li class="page-item">
-							<a class="page-link" href="#">4</a>
-						</li>
-						<li class="page-item">
-							<a class="page-link" href="#">5</a>
-						</li>
-						<li class="page-item">
-							<a class="page-link" href="#">下一页</a>
-						</li>
-					</ul>
-				</nav>
+					<nav class="navbar navbar-transparent">
+						<ul class="pagination">
+							<li class="page-item">
+								<a class="page-link" href="#">上一页</a>
+							</li>
+							<li class="page-item">
+								<a class="page-link" href="#">1</a>
+							</li>
+							<li class="page-item">
+								<a class="page-link" href="#">2</a>
+							</li>
+							<li class="page-item">
+								<a class="page-link" href="#">3</a>
+							</li>
+							<li class="page-item">
+								<a class="page-link" href="#">4</a>
+							</li>
+							<li class="page-item">
+								<a class="page-link" href="#">5</a>
+							</li>
+							<li class="page-item">
+								<a class="page-link" href="#">下一页</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
 			</div>
 		</div>
-	</div>
-	<script src="js/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/scripts.js"></script>
-</body>
+
+	</body>
 
 </html>

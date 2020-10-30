@@ -1,9 +1,6 @@
-
-.btn {
+li{
     position: relative;
-    margin-bottom: 50px;
-    background-color: white;
-    
+    margin-top: 20px;
 }
 .news{
     position: relative;
@@ -35,4 +32,18 @@ small{
     height: 30px;
     margin-right: 10px;
     border-radius: 50%;
+}
+.btn {
+    position: relative;
+    margin-bottom: 50px;
+    background-color: white;   
+}
+.btn:hover{
+    background-color: #00b3db;
+}
+.btn:focus{
+    background-color: #00b3db;
+}
+.btn:active{
+    background-color:#00b3ea;
 }

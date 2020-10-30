@@ -3,7 +3,7 @@ li{
 }
 .news{
     position: relative;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 .navbar{
     position: relative;
@@ -51,12 +51,12 @@ small{
 
 .tab{
     position: relative;
-    margin-bottom: 65px;
+    margin-bottom: 50px;
     background-color: white;
     border: none;
     border-radius: 15px;
     font-size: 15px;
-    height: 45px;
+
     
 }
 .tab:hover{

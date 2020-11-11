@@ -1,0 +1,52 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(5, 1fr) 1.1fr 0.9fr repeat(7, 1fr);
+  gap: 0px 0px;
+  grid-template-areas: "nav-static nav-static nav-static nav-static nav-static nav-static" "nav-dynamic nav-dynamic nav-dynamic nav-dynamic nav-dynamic nav-dynamic" "categories categories ad-androidapp ad-androidapp ad-androidapp ad-androidapp" "categories categories ad-androidapp ad-androidapp ad-androidapp ad-androidapp" "categories categories ad-androidapp ad-androidapp ad-androidapp ad-androidapp" "tree-new-bee tree-new-bee tree-new-bee tree-new-bee tree-new-bee tree-new-bee" "product1 product1 product1 product2 product2 product2" "product1 product1 product1 product2 product2 product2" "product1 product1 product1 product2 product2 product2" "product3 product3 product3 product4 product4 product4" "product3 product3 product3 product4 product4 product4" "product3 product3 product3 product4 product4 product4" "footer footer footer footer footer footer" "footer footer footer footer footer footer";
+}
+
+.nav-static {
+  grid-area: nav-static;
+}
+
+.nav-dynamic {
+  grid-area: nav-dynamic;
+}
+
+.ad-androidapp {
+  grid-area: ad-androidapp;
+}
+
+.categories {
+  grid-area: categories;
+}
+
+.tree-new-bee {
+  grid-area: tree-new-bee;
+}
+
+.product2 {
+  grid-area: product2;
+}
+
+.product1 {
+  grid-area: product1;
+}
+
+.product3 {
+  grid-area: product3;
+}
+
+.product4 {
+  grid-area: product4;
+}
+
+.footer {
+  grid-area: footer;
+}
+.item {
+  font-size: 3em;
+  text-align: center;
+  border: 1px solid #e5e4e9;
+}

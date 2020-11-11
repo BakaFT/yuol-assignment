@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>string insert</title>
+</head>
+<body>
+    <p>目标字符串：<input id="dest" type="text"></p>
+    <p>字符串源：<input id="src" type="text"></p>  
+    <p>插到哪个下标的后面(0开始)：<input id="index" type="number"></p>
+    <p><button onclick="strIns()">操作</button></p>
+    <script>
+        function strIns()
+        {
+            var dest = document.getElementById("dest").value;
+            var src = document.getElementById("src").value;
+            var index = Number(document.getElementById("index").value);
+            var temp = dest.substring(index+1);
+            dest = dest.substring(0,index+1) + src + temp;
+            alert(dest);
+        }
+    </script>
+</body>
+</html>
